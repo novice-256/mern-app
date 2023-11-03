@@ -1,0 +1,232 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cal-container{
+        display: flex ;
+    }
+    .cal-days{
+        display: flex;
+        color: blue;
+        width: 400px;
+        justify-content: space-around;
+
+        background-color: red;
+        }
+</style>
+<body>
+
+    <div class="cal-container" >
+       
+    </div>
+    <script>
+
+var dateObj = new Date() 
+
+var curr_date= dateObj.getDate()
+var curr_day= dateObj.getDay()
+var curr_month= dateObj.getMonth()
+// var curr_date= 5
+// var curr_day=5
+// var curr_month= 6
+
+ function findMonDays(Month){
+     let days
+     switch (Month) {
+         case 3:
+         case 5:
+         case 8:
+         case 10:
+             days = 30;
+             break;
+         case 1:
+             days = 28;
+             break;
+         default:
+             days = 31;
+     }
+
+
+     return days
+ }
+  
+let tmp_to_find_next_sat=curr_date
+let tmp_curr_day= curr_day
+
+// to fine next sat 
+    while(tmp_curr_day<6)
+    if(tmp_curr_day==6){ 
+        break
+    }else{
+    tmp_to_find_next_sat = tmp_to_find_next_sat+1
+
+        tmp_curr_day++
+        
+    }
+
+    
+// to find first sat of the month
+let first_sat = tmp_to_find_next_sat
+while(first_sat>7){
+    first_sat=first_sat-7
+}
+
+// to first day of month
+var tmp_to_find_first_day =first_sat
+var prev_month_days= findMonDays(curr_month-1)
+tmp_week_days=6
+while(tmp_week_days>0){
+    if(tmp_to_find_first_day==1 && tmp_week_days !=0){
+        tmp_to_find_first_day=prev_month_days
+      
+
+    }else{
+
+        tmp_to_find_first_day--
+    }
+    tmp_week_days--
+}
+function findDayName(day){
+    switch(day){
+        case 0:
+        return "Sun";
+        case 1:
+        return "Mon";                
+        case 2:
+        return "Tue";
+        case 3:
+        return "Wed";
+        case 4:
+        return "Thurs";
+        case 5:
+        return "Fri";
+        case 6:
+        return "Sat";
+        default : return 0
+                                                    
+    }
+}
+
+let j=0
+let first_row=true
+let container_div= document.querySelector('.cal-container')
+let div = document.createElement('div')
+
+container_div.appendChild(div)
+while(j<=6){
+    div.append(findDayName(j))
+    // document.write(findDayName(j),"\t") 
+    j++
+
+}
+let i=0
+let div_days = document.createElement('div')
+div_days.className='cal-days'
+
+container_div.appendChild(div_days)
+while(tmp_to_find_first_day!=curr_date+1){
+    if(i>6){
+        
+        i=0
+        let br = document.createElement('br')
+        div_days.appendChild(br)
+    }
+    if(tmp_to_find_first_day>prev_month_days){
+        tmp_to_find_first_day=1
+    }
+    div_days.append("<h1>",tmp_to_find_first_day++ ,"</h1>")  
+
+    i++
+}
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        /* In your CSS file */
+.parent {
+  position: relative;
+  width: 50%;
+  height: 200px;
+  background-color: #f2f2f27a;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+justify-content: center;
+color: rgb(32, 68, 102);
+
+}
+
+.child {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+}
+
+.top-left {
+  
+  left: 0;
+}
+
+.top-right {
+ 
+  right: 0;
+}
+
+.bottom-left {
+ 
+  left: 0;
+}
+
+.bottom-right {
+ 
+  right: 0;
+}
+.top-left,.top-right{
+    border-top: 2px solid;
+    border-color: rgb(32, 68, 102);
+    top: 0;
+
+}
+.bottom-left, .bottom-right{
+    border-color: rgb(32, 68, 102);
+    border-bottom: 2px solid;
+    bottom: 0;
+
+
+}
+.bottom-left,.top-left{
+    border-left: 2px solid;
+    border-color: rgb(32, 68, 102);
+
+}
+.bottom-right ,.top-right{
+    border-right: 2px solid;
+    border-color: rgb(32, 68, 102);
+
+}
+    </style>
+ 
+<div class="parent">
+  <div class="child top-left"></div>
+  <div class="child top-right"></div>
+  <div class="child bottom-left"></div>
+  <div class="child bottom-right"></div>
+  <h1>Highlights</h1>
+</div>
+
+</body>
+</html>
