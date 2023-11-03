@@ -79,7 +79,7 @@ navigate('/login')
  
       </>
      }
-
+    <Route path='/' element={<Login/>}/>
       </Routes>
    
 
