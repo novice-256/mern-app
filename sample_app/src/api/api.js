@@ -7,7 +7,7 @@ export async function submit(data,setResContext){
       const fileType =data.get('uplFile').type.split('/')[0]
       //  console.log(`name:${fileExt}, type:${fileType}, size:${fileSize} `);
 
-    return await axios.post(`${PATH}/file=${fileSize}%${fileType}%${fileExt}`,data)
+    return await axios.post(`${PATH}/signup/file=${fileSize}%${fileType}%${fileExt}`,data)
    } catch (error) {
       console.log('this is running');
       setResContext({succ:false,err:true,msg:error.response.data.msg})
@@ -18,7 +18,7 @@ export async function submit(data,setResContext){
 export async function getToken(){
    try {
   
-      return await axios.get(`${PATH}`)
+      return await axios.get(`${PATH}/signup`)
    } catch (error) {
       setResContext({succ:false,err:true,msg:error.response.data.msg})
 
