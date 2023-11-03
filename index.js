@@ -8,7 +8,7 @@ import { env } from "process";
 const app = express();
 
 // Allow Cross-Origin Resource Sharing (CORS)
-app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com/' }));
+app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com' }));
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
