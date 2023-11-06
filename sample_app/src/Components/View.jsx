@@ -176,7 +176,7 @@ export default function View() {
                                 <tr key={index}>
                                     <td>
                                         
-                                        <img  style={{textTransform:'lowercase'}} src={`http://localhost:8000/Images/${item.file && item.file.filename}`} className="img" width={80} alt={item.file && item.file.filename} />
+                                        <img  style={{textTransform:'lowercase'}} src={`https://emp-app-ca789b749d5f.herokuapp.com/Images/${item.file && item.file.filename}`} className="img" width={80} alt={item.file && item.file.filename} />
                                     </td>
                                     <td>{item.name}</td>
                                     <td>{item.role}</td>
