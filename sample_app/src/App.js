@@ -67,7 +67,7 @@ navigate('/login')
   </div>
       <Routes>
      <Route path='login' element={<Login/>}/>
-     <Route path='/signup' element={<Form/>}/>
+     <Route path='signup' element={<Form/>}/>
       
      
      {
