@@ -1,5 +1,5 @@
 import axios from "axios";
-const PATH = 'http://localhost:8000'
+const PATH = 'https://localhost:8000'
 export async function submit(data,setResContext){
    try {
       const fileExt =data.get('uplFile').type.split('/')[1]
