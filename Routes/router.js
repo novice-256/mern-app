@@ -9,7 +9,7 @@ import { existsSync } from 'node:fs';
 const router= express.Router();
 // router.post('/signup',add)
 router.get('/signup',createToken)
-router.post('signup/file=:size%:type%:ext', imageValidation,uploadFile.single("uplFile"),validateToken,add)
+router.post('/signup/file=:size%:type%:ext', imageValidation,uploadFile.single("uplFile"),validateToken,add)
 router.post('/auth=:role/delete',authMidlWare,remove)
 router.get('/auth=:role/view/:page',authMidlWare,fetch)
 router.post('/auth=:role/update/:id/:file',uploadFile.single("uplFile"),authMidlWare,update)
