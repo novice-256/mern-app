@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Serve static files from the "public/Images" directory
-app.use(express.static(path.resolve('public'));
+app.use(express.static(path.resolve('public')));
 
 connection();
 
