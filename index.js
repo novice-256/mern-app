@@ -1,10 +1,10 @@
-const express = require('express');
-const path = require('path');
-const routes = require('./Routes/router.js');
-const connection = require('./Database/connection.js');
-const cors = require('cors');
-const cookieParser = require('cookie-parser');
-
+import express from "express";
+import routes from "./Routes/router.js";
+import connection from "./Database/connection.js";
+import cors from "cors";
+import cookieParser from "cookie-parser";
+import path from "path";
+import { env } from "process";
 const app = express();
 
 // Allow Cross-Origin Resource Sharing (CORS)
@@ -20,14 +20,13 @@ connection();
 
 // Define your routes
 app.use('/api', routes);
-
-// We need to tell Heroku to serve the static files of the client.
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('sample_app/build'));
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'sample_app', 'build', 'index.html'));
-  });
+// We need to tell the Heroku to serve the statics files of the client.
+if(process.env.NODE_ENV === "production"){
+    app.use(express.static("sample_app/build"))
+    app.get("*",(req,res)=>{
+      const __dirname = path.resolve('sample_app');
+res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    })
 }
-
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log('Server running at PORT: ' + PORT));
+ const PORT = process.env.PORT || 8000
+app.listen(PORT, () => console.log("Server running at PORT: " + PORT));
