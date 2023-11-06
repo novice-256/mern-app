@@ -57,7 +57,7 @@ function Update() {
           <i className='fa-solid fa-arrow-left mx-2'></i>
         </Link>
       </div>
-      <img src={`http://localhost:8000/Images/${img && img}`} ref={imgRef} className='img' width={80} alt='' />
+      <img src={`https://emp-app-ca789b749d5f.herokuapp.com/Images/${img && img}`} ref={imgRef} className='img' width={80} alt='' />
 
       <form method='post' className='form col-sm-12 col-md-6' encType='multipart/form-data'>
         <input type='text' ref={fileRef} className='form-control my-3' name='name' onChange={handleChange} value={updateData.name} />
