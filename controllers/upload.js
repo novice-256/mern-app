@@ -4,8 +4,11 @@ import {request, response } from "express";
 
 const storage = multer.diskStorage({
     destination:(req,file,callBack)=>{
-        // console.log(file);
-        callBack(null,'public/images')
+        const dest = path.resolve('public/images')
+         console.log(file);
+         console.log(dest);
+        
+        callBack(null,dest )
     },
     filename:(req,file,callBack)=>{            
         callBack(null, Date.now() + path.extname(file.originalname));
