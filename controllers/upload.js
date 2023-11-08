@@ -9,6 +9,7 @@ const storage = multer.diskStorage({
     },
     filename:(req,file,callBack)=>{            
         callBack(null, Date.now() + path.extname(file.originalname));
+        console.log('file uploaded')
         // console.log(file.mimetype.split('/')[0]);
         // console.log( file.originalname.split('.').pop());
      
