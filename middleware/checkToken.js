@@ -10,6 +10,7 @@ const token = request.body.token
  try {
         validateCsrf=  await bcrypt.compare(secret,token)
         if(validateCsrf){
+         console.log('token validation successful')
             next()
         }else{
             response.status(409).json({err:'csrf token is not valid'})
