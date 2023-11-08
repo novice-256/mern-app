@@ -28,8 +28,8 @@ const {size,type,ext}= request.params
     //  const file = request.file
 
     try {
-        
          await imgValid(size,type,ext)
+        console.log('file validation successful')
             next()
     } catch (error) {
         console.log(error);
