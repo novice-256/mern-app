@@ -6,7 +6,8 @@ import cookieParser from "cookie-parser";
 import path from "path";
 import { env } from "process";
 const app = express();
-
+const __filename = new URL(import.meta.url).pathname;
+const __dirname = path.dirname(__filename);
 // Allow Cross-Origin Resource Sharing (CORS)
 // app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com' }));
 app.use(cookieParser());
