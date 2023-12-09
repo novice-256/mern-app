@@ -25,7 +25,7 @@ app.use('/api', routes);
 
     app.use(express.static("sample_app/build"))
  app.get("*", (req, res) => {
-  const indexPath = path.join(__dirname, 'sample_app', 'build', 'index.html');
+  const indexPath = path.join('sample_app', 'build', 'index.html');
   res.sendFile(indexPath);
 });
 
