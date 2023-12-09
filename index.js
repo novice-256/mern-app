@@ -19,7 +19,7 @@ app.use(express.static(path.resolve('public')));
 connection();
 
 // Define your routes
-app.use('/api', routes);
+app.use('/', routes);
 // We need to tell the Heroku to serve the statics files of the client.
 if(process.env.NODE_ENV === "production"){
     app.use(express.static("sample_app/build"))
