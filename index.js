@@ -22,15 +22,15 @@ connection();
 // Define your routes
 app.use('/api', routes);
 // We need to tell the Heroku to serve the statics files of the client.
-console.log(__dirname);
 
-console.log(path.join(__dirname,'sample_app','build','index.html'));
+
+
           
-    app.use(express.static("sample_app/build"))
+    app.use(express.static("./sample_app/build"))
  app.get("*", (req, res) => {
   const path_to_index= path.join('sample_app','build','index.html');
-)
-  res.sendFile(path_to_index);
+console.log(`./${path_to_index}`);
+  res.sendFile(`./${path_to_index}`);
 });
 
  const PORT = process.env.PORT || 3000
