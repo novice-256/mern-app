@@ -29,7 +29,7 @@ console.log(path.join(__dirname,'sample_app','build','index.html'));
     app.use(express.static("sample_app/build"))
  app.get("*", (req, res) => {
   
-  res.sendFile(path.join(__dirname,'sample_app','build','index.html'));
+  res.sendFile(path.join('sample_app','build','index.html'));
 });
 
  const PORT = process.env.PORT || 3000
