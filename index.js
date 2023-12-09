@@ -25,8 +25,8 @@ app.use('/api', routes);
 
     app.use(express.static("sample_app/build"))
  app.get("*", (req, res) => {
-  const indexPath = path.join('sample_app', 'build', 'index.html');
-  res.sendFile(indexPath);
+ 
+  res.sendFile('sample_app/build/index.html');
 });
 
  const PORT = process.env.PORT || 8000
