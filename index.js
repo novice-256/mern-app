@@ -8,7 +8,7 @@ import { env } from "process";
 const app = express();
 
 // Allow Cross-Origin Resource Sharing (CORS)
-app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com' }));
+// app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com' }));
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -21,12 +21,12 @@ connection();
 // Define your routes
 app.use('/api', routes);
 // We need to tell the Heroku to serve the statics files of the client.
-if(process.env.NODE_ENV === "production"){
+
     app.use(express.static("sample_app/build"))
     app.get("*",(req,res)=>{
       const __dirname = path.resolve('sample_app');
 res.sendFile(path.join(__dirname, 'build', 'index.html'));
     })
-}
+
  const PORT = process.env.PORT || 8000
 app.listen(PORT, () => console.log("Server running at PORT: " + PORT));
