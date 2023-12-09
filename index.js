@@ -28,8 +28,9 @@ console.log(path.join(__dirname,'sample_app','build','index.html'));
           
     app.use(express.static("sample_app/build"))
  app.get("*", (req, res) => {
-  
-  res.sendFile(path.join('https://easy-rose-penguin.cyclic.app','sample_app','build','index.html'));
+  const path_to_index= path.join('sample_app','build','index.html');
+)
+  res.sendFile(path_to_index);
 });
 
  const PORT = process.env.PORT || 3000
