@@ -25,7 +25,7 @@ app.use('/api', routes);
     app.use(express.static("sample_app/build"))
     app.get("*",(req,res)=>{
       // const __dirname = path.resolve('sample_app');
-res.sendFile(path.join('build', 'index.html'));
+res.sendFile(path.join('sample_app/build/index.html'));
     })
 
  const PORT = process.env.PORT || 8000
