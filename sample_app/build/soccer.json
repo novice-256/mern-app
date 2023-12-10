@@ -1,0 +1,149 @@
+{
+    "top_10_teams" : 
+    [
+        {
+            "id" : 0,
+            "position" : 1,
+            "name" : "Argentina",
+            "points" : 1843.73,
+            "flag_image" : "Assets/Images/ARG.png"
+        },
+        {
+            "id" : 1,
+            "position" : 2,
+            "name" : "France",
+            "points" : 1843.54,
+            "flag_image" : "Assets/Images/FRA.png"
+        },
+        {
+            "id" : 2,
+            "position" : 3,
+            "name" : "Brazil",
+            "points" : 1828.45,
+            "flag_image" : "Assets/Images/BRA.png"
+        },
+        {
+            "id" : 3,
+            "position" : 4,
+            "name" : "England",
+            "points" : 1797.54,
+            "flag_image" : "Assets/Images/ENG.png"
+        },
+        {
+            "id" : 4,
+            "position" : 5,
+            "name" : "Belgium",
+            "points" : 1788.24,
+            "flag_image" : "Assets/Images/BEL.png"
+        },
+        {
+            "id" : 5,
+            "position" : 6,
+            "name" : "Croatia",
+            "points" : 1743.54,
+            "flag_image" : "Assets/Images/CRO.png"
+        },
+        {
+            "id" : 6,
+            "position" : 7,
+            "name" : "Netherlands",
+            "points" : 1723.54,
+            "flag_image" : "Assets/Images/NED.png"
+        },
+        {
+            "id" : 7,
+            "position" : 8,
+            "name" : "Italy",
+            "points" : 1720.58,
+            "flag_image" : "Assets/Images/ITA.png"
+        },
+        {
+            "id" : 8,
+            "position" : 9,
+            "name" : "Portugal",
+            "points" : 1718.58,
+            "flag_image" : "Assets/Images/POR.png"
+        },
+        {
+            "id" : 9,
+            "position" : 10,
+            "name" : "Spain",
+            "points" : 1703.45,
+            "flag_image" : "Assets/Images/ESP.png"
+        }
+    ],
+    "top_10_players" : 
+    [
+        {
+            "id" : 0,
+            "position" : 1,
+            "name" : "Lionel Messi",
+            "goals" : 805,
+            "flag_image" : "Assets/Images/1.jpg"
+        },
+        {
+            "id" : 1,
+            "position" : 2,
+            "name" : "Cristiano Ronaldo",
+            "goals" : 835,
+            "flag_image" : "Assets/Images/2.jpg"
+        },
+        {
+            "id" : 2,
+            "position" : 3,
+            "name" : "Robert Lewandoski",
+            "goals" : 591,
+            "flag_image" : "Assets/Images/3.jpg"
+        },
+        {
+            "id" : 3,
+            "position" : 4,
+            "name" : "Karem Benzema",
+            "goals" : 466,
+            "flag_image" : "Assets/Images/4.jpg"
+        },
+        {
+            "id" : 4,
+            "position" : 5,
+            "name" : "Nemar Jr.",
+            "goals" : 436,
+            "flag_image" : "Assets/Images/5.jpg"
+        },
+        {
+            "id" : 5,
+            "position" : 6,
+            "name" : "Harry Kane.",
+            "goals" : 345,
+            "flag_image" : "Assets/Images/6.jpg"
+        },
+        {
+            "id" : 6,
+            "position" : 7,
+            "name" : "Muhamet Salah",
+            "goals" : 307,
+            "flag_image" : "Assets/Images/7.jpg"
+        },
+        {
+            "id" : 7,
+            "position" : 8,
+            "name" : "K. Mbappe",
+            "goals" : 276,
+            "flag_image" : "Assets/Images/8.jpg"
+        },
+        {
+            "id" : 8,
+            "position" : 9,
+            "name" : "Erling Halaand",
+            "goals" : 218,
+            "flag_image" : "Assets/Images/9.jpg"
+        },
+        {
+            "id" : 9,
+            "position" : 10,
+            "name" : "Kevin De Bruyne",
+            "goals" : 166,
+            "flag_image" : "Assets/Images/10.jpg"
+        }
+        
+    ]
+}

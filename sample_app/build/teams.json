@@ -1,0 +1,924 @@
+{
+  "argentina": [
+    {
+      "id": 0,
+      "name": "Lionel Messi", 
+      "nationality": "Argentina",
+      "age": "36 years",
+      "position": "Center Forward",
+      "biography": "Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team.",
+      "images": "Assets/Images/messi.jpg",
+      "statistics": [
+        {
+          "matches": 1032,
+          "goals": 814,
+          "assists": 358,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Paulo Dybala",
+      "nationality": "Argentina",
+      "age": "29 years",
+      "position": "Mid-fielder",
+      "biography": "Paulo Exequiel Dybala is an Argentine professional footballer who plays as an attacking midfielder or winger for Serie A club Roma and the Argentina national team. He is known for his exceptional dribbling ability, quick feet, and an eye for goal.",
+      "images": "Assets/Images/dybala.jpg",
+      "statistics": [
+        {
+          "matches": 234,
+          "goals": 102,
+          "assists": 38,
+          "yellow_card": 11,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alexis Mac Allister",
+      "nationality": "Argentina",
+      "age": "24 years",
+      "position": "Center Mid-fielder",
+      "biography": "Alexis Mac Allister is an Argentine professional footballer who plays as a midfielder for Premier League club Liverpool and the Argentina national team. Born to a footballing family, Mac Allister started his senior career with Argentinos Juniors in 2016, winning the Argentine second division in his debut season.",
+      "images": "Assets/Images/allister.jpg",
+      "statistics": [
+        {
+          "matches": 132,
+          "goals": 102,
+          "assists": 38,
+          "yellow_card": 8,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Emiliano Martinez",
+      "nationality": "Argentina",
+      "age": "30 years",
+      "position": "Goal Keeper",
+      "biography": "Damián Emiliano Martínez is an Argentine professional footballer who plays as a goalkeeper for Premier League club Aston Villa and the Argentina national team. Martínez trained at Independiente's youth ranks before moving to Premier League club Arsenal in 2010.",
+      "images": "Assets/Images/martinez.jpg",
+      "statistics": [
+        {
+          "matches": 132,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Angel Di Maria",
+      "nationality": "Argentina",
+      "age": "35 years",
+      "position": "Right Winger",
+      "biography": "Ángel Fabián Di María is an Argentine professional footballer who plays as a right winger or attacking midfielder for Primeira Liga club Benfica and the Argentina national team. Considered one of the greatest Argentine players of all time, he is known for his dribbling, playmaking skills and unique finishing.",
+      "images": "Assets/Images/maria.jpg",
+      "statistics": [
+        {
+          "matches": 732,
+          "goals": 300,
+          "assists": 32,
+          "yellow_card": 8,
+          "red_card": 5
+        }
+      ]
+    }
+  ],
+  "france": [
+    {
+      "id": 0,
+      "name": "A. Greizmann",
+      "nationality": "France",
+      "age": "32 years",
+      "position": "Attacker",
+      "biography": "Antoine Griezmann is a French professional footballer who plays as a forward for La Liga club Atlético Madrid and the France national team. A versatile player, he is known for his attacking, passing and supportive defence, and has played as an attacking midfielder, winger, and striker in his career",
+      "images": "Assets/Images/griezmann.jpg",
+      "statistics": [
+        {
+          "matches": 622,
+          "goals": 498,
+          "assists": 58,
+          "yellow_card": 10,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Paul Pogba",
+      "nationality": "France",
+      "age": "30 years",
+      "position": "Mid-fielder",
+      "biography": "Paul Labile Pogba is a French professional footballer who plays for Serie A club Juventus and the France national team. He operates primarily as a central midfielder, but can be deployed as a left winger, attacking midfielder, defensive midfielder and deep-lying playmaker.",
+      "images": "Assets/Images/pogba.jpg",
+      "statistics": [
+        {
+          "matches": 334,
+          "goals": 102,
+          "assists": 23,
+          "yellow_card": 10,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "O. Dembelle",
+      "nationality": "France",
+      "age": "26 years",
+      "position": "Attacker",
+      "biography": "Masour Ousmane Dembélé (born 15 May 1997) is a French professional footballer who plays as a winger for La Liga club Barcelona and the France national team",
+      "images": "Assets/Images/dembelle.jpg",
+      "statistics": [
+        {
+          "matches": 322,
+          "goals": 162,
+          "assists": 38,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "K. Mbappe",
+      "nationality": "France",
+      "age": "24 years",
+      "position": "Attacker",
+      "biography": "Kylian Mbappé Lottin is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the France national team. Regarded as one of the best players in the world, he is renowned for his dribbling abilities, exceptional speed, and finishing.",
+      "images": [],
+      "statistics": [
+        {
+          "matches": 132,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "L. Hernandez",
+      "nationality": "France",
+      "age": "25 years",
+      "position": "Defender",
+      "biography": "Lucas François Bernard Hernandez, born 14 February 1996) is a French professional footballer who plays as a centre-back or left-back for Ligue 1 club Paris Saint-Germain and the France national team.[6] Considered one of the best defenders in the world, he is known for his versatility and defensive prowess.",
+      "images": "Assets/Images/Lucas_Hernandez.jpg",
+      "statistics": [
+        {
+          "matches": 422,
+          "goals": 222,
+          "assists": 30,
+          "yellow_card": 10,
+          "red_card": 2
+        }
+      ]
+    }
+  ],
+  "brazil": [
+    {
+      "id": 0,
+      "name": "Neymar Jr.",
+      "nationality": "Brazil",
+      "age": "31 years",
+      "position": "Center Attacking Mid-Field",
+      "biography": "Neymar da Silva Santos Júnior, known as Neymar Júnior or mononymously as Neymar, is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team.",
+      "images": "Assets/Images/neymar_jr.jpg",
+      "statistics": [
+        {
+          "matches": 832,
+          "goals": 832,
+          "assists": 358,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Vinicius Jr.",
+      "nationality": "Brazil",
+      "age": "24 years",
+      "position": "Left Winger",
+      "biography": "Vinícius José Paixão de Oliveira Júnior, commonly known as Vinícius Júnior or Vini Jr., is a Brazilian professional footballer who plays as a winger for La Liga club Real Madrid and the Brazil national team.",
+      "images": "Assets/Images/Vinicius_Jr.jpg",
+      "statistics": [
+        {
+          "matches": 334,
+          "goals": 302,
+          "assists": 38,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rodrygo",
+      "nationality": "Brazil",
+      "age": "22 years",
+      "position": "Right Winger",
+      "biography": "Rodrygo Silva de Goes, simply known as Rodrygo, is a Brazilian professional footballer who plays as a winger or forward for La Liga club Real Madrid and the Brazil national team. He began his career with Santos, where he played 80 games and scored 17 goals before a €45 million transfer to Real Madrid in 2019.",
+      "images": "Assets/Images/Rodrygo.png",
+      "statistics": [
+        {
+          "matches": 332,
+          "goals": 152,
+          "assists": 45,
+          "yellow_card": 8,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Casemiro",
+      "nationality": "Brazil",
+      "age": "33 years",
+      "position": "Center Defence Mid-field",
+      "biography": "Carlos Henrique Casimiro, known as Casemiro, is a Brazilian professional footballer who plays as a defensive midfielder for Premier League club Manchester United and captains the Brazil national team. He is known for his defensive abilities, ball-winning skills, and tackling.",
+      "images": "Assets/Images/casemiro.jpg",
+      "statistics": [
+        {
+          "matches": 732,
+          "goals": 654,
+          "assists": 35,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "L. Ederson",
+      "nationality": "Brazil",
+      "age": "35 years",
+      "position": "Goal Keeper",
+      "biography": "Ederson Santana de Moraes, known as Ederson, is a Brazilian professional footballer who plays as a goalkeeper for Premier League club Manchester City and the Brazil national team. He is best known for his skill and control of the ball with his feet and his precise ball distribution abilities",
+      "images": "Assets/Images/l_ederson.png",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 3
+        }
+      ]
+    }
+  ],
+  "england": [
+    {
+      "id": 0,
+      "name": "Harry Kane",
+      "nationality": "England",
+      "age": "32 years",
+      "position": "Striker",
+      "biography": "Harry Edward Kane MBE is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur and captains the England national team. A prolific goalscorer with strong link play, Kane is regarded as one of the best strikers in the world.",
+      "images": "Assets/Images/Harry_Kane.jpg",
+      "statistics": [
+        {
+          "matches": 526,
+          "goals": 468,
+          "assists": 56,
+          "yellow_card": 10,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Jude Bellingham",
+      "nationality": "England",
+      "age": "20 years",
+      "position": "Center Mid-fielder",
+      "biography": "Jude Victor William Bellingham is an English professional footballer who plays as a midfielder for La Liga club Real Madrid and the England national team.",
+      "images": "Assets/Images/Jude_Bellingham.jpg",
+      "statistics": [
+        {
+          "matches": 174,
+          "goals": 102,
+          "assists": 23,
+          "yellow_card": 13,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Harry Maguire",
+      "nationality": "England",
+      "age": "30 years",
+      "position": "Center Back",
+      "biography": "Jacob Harry Maguire is an English professional footballer who plays as a centre-back for Premier League club Manchester United and the England national team. Maguire came through the youth system at Sheffield United before graduating to the first team in 2011.",
+      "images": "Assets/Images/Harry_Maguire.jpg",
+      "statistics": [
+        {
+          "matches": 510,
+          "goals": 242,
+          "assists": 38,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "B. Saka",
+      "nationality": "England",
+      "age": "26 years",
+      "position": "Right Winger",
+      "biography": "Bukayo Ayoyinka Temidayo Saka is an English professional footballer who plays as a right winger, midfielder, or full back for Premier League club Arsenal and the England national team. He is considered to be one of the best young players in the world.",
+      "images": "Assets/Images/Bukayo_Saka.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 123,
+          "assists": 67,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jordan Picford",
+      "nationality": "England",
+      "age": "28 years",
+      "position": "Goal-Keeper",
+      "biography": "Jordan Lee Picford is an English professional footballer who plays as a goalkeeper for Premier League club Everton and the England national team.",
+      "images": "Assets/Images/Jordan_Pickford.jpg",
+      "statistics": [
+        {
+          "matches": 422,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 10,
+          "red_card": 2
+        }
+      ]
+    }
+  ],
+
+  "Belgium": [
+    {
+      "id": 0,
+      "name": "Kevin De Bryune",
+      "nationality": "Belgium",
+      "age": "31 years",
+      "position": "Center Mid-Field",
+      "biography": "Kevin De Bruyne is a Belgian professional footballer who plays as a midfielder for and captains both Premier League club Manchester City and the Belgium national team. He is widely regarded as one of the best players of his generation as well as one of the best midfielders in the world.",
+      "images": "Assets/Images/Kevin_De_Bruyne.jpg",
+      "statistics": [
+        {
+          "matches": 532,
+          "goals": 332,
+          "assists": 38,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Eden Hazard",
+      "nationality": "Belgium",
+      "age": "32 years",
+      "position": "Left Winger",
+      "biography": "Eden Michael Walter Hazard is a Belgian professional footballer who plays as a winger or attacking midfielder. Having most recently played for Real Madrid, Hazard is currently a free agent. Known for his creativity, dribbling, passing and vision, he is considered one of the best attacking players of his generation.",
+      "images": "Assets/Images/Eden_Hazard.jpg",
+      "statistics": [
+        {
+          "matches": 434,
+          "goals": 302,
+          "assists": 23,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Thorgan Hazard",
+      "nationality": "Belgium",
+      "age": "30 years",
+      "position": "Center Forward",
+      "biography": "Thorgan Ganael Francis Hazard is a Belgian professional footballer who plays as an attacking midfielder and winger for Bundesliga club Borussia Dortmund and the Belgium national team. Hazard began his professional career at Lens in Ligue 1, and moved to Chelsea in 2012 shortly after they had signed his older brother.",
+      "images": "Assets/Images/t_hazard.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 152,
+          "assists": 34,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Romelu Lakaku",
+      "nationality": "Belgium",
+      "age": "30 years",
+      "position": "Center Forward",
+      "biography": "Romelu Lukaku Bolingoli is a Belgian professional footballer who plays as a striker for Premier League club Chelsea and the Belgium national team. Lukaku began his senior club career playing for Anderlecht, where he won a Belgian Pro League title and finished as the league's top goalscorer.",
+      "images": "Assets/Images/Romelu_Lukaku.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 234,
+          "assists": 30,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Thibaut Courtios",
+      "nationality": "Belgium",
+      "age": "31 years",
+      "position": "Goal Keeper",
+      "biography": "Thibaut Nicolas Marc Courtois is a Belgian professional footballer who plays as a goalkeeper for La Liga club Real Madrid and the Belgium national team. Regarded as one of the best goalkeepers in the world, he is known for his reflexes, acrobatic saves, and command of the penalty area.",
+      "images": "Assets/Images/Courtios.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 3
+        }
+      ]
+    }
+  ],
+
+  "Spain": [
+    {
+      "id": 0,
+      "name": "Sergio Ramos",
+      "nationality": "Spain",
+      "age": "36 years",
+      "position": "Center Back",
+      "biography": "Sergio Ramos García is a Spanish professional footballer who plays as a centre back. Widely regarded as one of the greatest defenders of all time, he is known for his exceptional tackling skills, aerial abilities and strong leadership.",
+      "images": "Assets/Images/ramos1.jpg",
+      "statistics": [
+        {
+          "matches": 632,
+          "goals": 432,
+          "assists": 38,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Marco Asensio",
+      "nationality": "Spain",
+      "age": "27 years",
+      "position": "Left Winger",
+      "biography": "Marco Asensio Willemsen is a Spanish professional footballer who plays as a right winger and attacking midfielder for Ligue 1 club Paris Saint-Germain and the Spain national team.",
+      "images": "Assets/Images/asensio.jpg",
+      "statistics": [
+        {
+          "matches": 434,
+          "goals": 302,
+          "assists": 23,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gerard Pique",
+      "nationality": "Spain",
+      "age": "36 years",
+      "position": "Center Back",
+      "biography": "Gerard Piqué Bernabeu is a Spanish former professional footballer who played as a centre-back. He is considered to be one of the greatest defenders of all time. Initially a talented student athlete at La Masia, Piqué began his professional career with Manchester United in 2004.",
+      "images": "Assets/Images/pique.jpg",
+      "statistics": [
+        {
+          "matches": 652,
+          "goals": 412,
+          "assists": 34,
+          "yellow_card": 9,
+          "red_card": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gavi",
+      "nationality": "Spain",
+      "age": "19 years",
+      "position": "Center Mid-Field",
+      "biography": "Pablo Martín Páez Gavira, known as Gavi, is a Spanish professional footballer who plays as a central midfielder for La Liga club Barcelona and the Spain national team. In 2022, he won the Golden Boy award and received the Kopa Trophy, awarded by France Football during the 2022 Ballon d'Or ceremony.",
+      "images": "Assets/Images/gavi.jpg",
+      "statistics": [
+        {
+          "matches": 212,
+          "goals": 194,
+          "assists": 23,
+          "yellow_card": 7,
+          "red_card": 7
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "David De Gea",
+      "nationality": "Spain",
+      "age": "32 years",
+      "position": "Goal Keeper",
+      "biography": "David de Gea Quintana is a Spanish professional footballer who plays as a goalkeeper. Having most recently played for Manchester United, he's currently a free agent.",
+      "images": "Assets/Images/de_gea.jpg",
+      "statistics": [
+        {
+          "matches": 402,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 6,
+          "red_card": 3
+        }
+      ]
+    }
+  ],
+  "Portugal": [
+    {
+      "id": 0,
+      "name": "Cristiano Ronald",
+      "nationality": "Portugal",
+      "age": "29 years",
+      "position": "Center Forward",
+      "biography": "Cristiano Ronaldo dos Santos Aveiro GOIH ComM born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al Nassr and the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards and four European Golden Shoes, the most by a European player. He has won 32 trophies in his career, including seven league titles, five UEFA Champions Leagues, the UEFA European Championship and the UEFA Nations League.",
+      "images": "Assets/Images/cristiano_ronaldo.jpg",
+      "statistics": [
+        {
+          "matches": 972,
+          "goals": 899,
+          "assists": 38,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Pepe",
+      "nationality": "Portugal",
+      "age": "40 years",
+      "position": "Center Back",
+      "biography": "Kepler Laveran de Lima Ferreira ComM, known as Pepe, is a Brazilian-Portuguese professional footballer who plays as a centre-back for Primeira Liga club Porto and the Portugal national team, also captaining the former. He is widely regarded as one of the greatest defenders of his generation.",
+      "images": "Assets/Images/pepe.jpg",
+      "statistics": [
+        {
+          "matches": 834,
+          "goals": 202,
+          "assists": 23,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Diogo Jota",
+      "nationality": "Portugal",
+      "age": "25 years",
+      "position": "Right Winger",
+      "biography": "Diogo José Teixeira da Silva, known as Diogo Jota, is a Portuguese professional footballer who plays as a forward or left winger for Premier League club Liverpool and the Portugal national team. Jota started his career with Paços de Ferreira, before signing for La Liga club Atlético Madrid in 2016.",
+      "images": "Assets/Images/jota.jpg",
+      "statistics": [
+        {
+          "matches": 132,
+          "goals": 102,
+          "assists": 34,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ruben Dias",
+      "nationality": "Portugal",
+      "age": "30 years",
+      "position": "Center Back",
+      "biography": "Rúben dos Santos Gato Alves Dias is a Portuguese professional footballer who plays as a centre-back for Premier League club Manchester City and the Portugal national team. Considered one of the best defenders in the world, he is known for his defensive prowess, leadership, and aerial ability.",
+      "images": "Assets/Images/dias.jpg",
+      "statistics": [
+        {
+          "matches": 492,
+          "goals": 234,
+          "assists": 30,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rui Petricio",
+      "nationality": "Portugal",
+      "age": "35 years",
+      "position": "Goal Keeper",
+      "biography": "Rui Pedro dos Santos Patrício ComM is a Portuguese professional footballer who plays as a goalkeeper for Serie A club Roma and the Portugal national team. He is often nicknamed São Patrício for his saves for club and country.",
+      "images": "Assets/Images/petricio.jpg",
+      "statistics": [
+        {
+          "matches": 522,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 3
+        }
+      ]
+    }
+  ],
+  "germany": [
+    {
+      "id": 0,
+      "name": "Toni Kroos",
+      "nationality": "Germany",
+      "age": "36 years",
+      "position": "Center Mid-Field",
+      "biography": "Toni Kroos is a German professional footballer who plays as a midfielder for La Liga club Real Madrid. Widely regarded as one of the greatest midfielders of all time, Kroos plays mainly as a central midfielder, but has also been deployed as a deep-lying playmaker in his career. He is known for his vision, passing, creativity, crossing and set-piece ability.",
+      "images": "Assets/Images/toni_kroos.jpg",
+      "statistics": [
+        {
+          "matches": 752,
+          "goals": 442,
+          "assists": 38,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Manuel Neuer",
+      "nationality": "Germany",
+      "age": "37 years",
+      "position": "Goal Keeper",
+      "biography": "Manuel Neuer is a German professional footballer who plays as a goalkeeper for and captains both Bundesliga club Bayern Munich and the Germany national team. Widely regarded as one of the greatest goalkeepers in the history of the sport,[nb 1] Neuer has been described as a sweeper-keeper because of his playing style and speed when rushing off his line to anticipate opponents.",
+      "images": "Assets/Images/manuel_neuer.jpg",
+      "statistics": [
+        {
+          "matches": 584,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Antonio Rudiger",
+      "nationality": "Germany",
+      "age": "30 years",
+      "position": "Center Back",
+      "biography": "Antonio Rüdiger is a German professional footballer who plays as a centre-back for La Liga club Real Madrid and the Germany national team. Considered one of the best defenders in the world, he is known for his aggressive playing style, tackling ability and strong aerial presence.",
+      "images": "Assets/Images/rudiger.jpg",
+      "statistics": [
+        {
+          "matches": 442,
+          "goals": 152,
+          "assists": 34,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mesut Ozil",
+      "nationality": "Germany",
+      "age": "34 years",
+      "position": "Center Mid-fielder",
+      "biography": "Mesut Özil is a German former professional footballer who played as an attacking midfielder. Özil was known for his technical skills, creativity, passing skills, and vision. He could also play as a wide midfielder.",
+      "images": "Assets/Images/mesut_ozil.jpg",
+      "statistics": [
+        {
+          "matches": 332,
+          "goals": 264,
+          "assists": 30,
+          "yellow_card": 8,
+          "red_card": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Marc-Andre ter Stegen",
+      "nationality": "Germany",
+      "age": "31 years",
+      "position": "Goal Keeper",
+      "biography": "Marc-André ter Stegen, is a German professional footballer who plays as a goalkeeper for La Liga club Barcelona and the Germany national team. Regarded as a highly promising player in his youth, he has since established himself as one of the best goalkeepers in world football.",
+      "images": "Assets/Images/stegen.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 8,
+          "red_card": 3
+        }
+      ]
+    }
+  ],
+  "Italy": [
+    {
+      "id": 0,
+      "name": "Ciro Immobile",
+      "nationality": "Italy",
+      "age": "30 years",
+      "position": "Center Forward",
+      "biography": "Ciro Immobile Cavaliere OMRI is an Italian professional footballer who plays as a forward for Serie A club Lazio, which he captains, and the Italy national team. Immobile began his career at Sorrento.",
+      "images": "Assets/Images/Ciro_Immobile.png",
+      "statistics": [
+        {
+          "matches": 492,
+          "goals": 332,
+          "assists": 38,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Leonardo Bonucci",
+      "nationality": "Italy",
+      "age": "32 years",
+      "position": "Center Back",
+      "biography": "Leonardo Bonucci Cavaliere OMRI is an Italian professional footballer who plays as a centre-back for and captains both Serie A club Juventus and the Italy national team.",
+      "images": "Assets/Images/leonardo.jpg",
+      "statistics": [
+        {
+          "matches": 434,
+          "goals": 302,
+          "assists": 23,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Marco Verratti",
+      "nationality": "Italy",
+      "age": "30 years",
+      "position": "Center Mid-Fielder",
+      "biography": "Marco Verratti Cavaliere OMRI is an Italian professional footballer who plays as a central midfielder for Ligue 1 club Paris Saint-Germain and the Italy national team.",
+      "images": "Assets/Images/marco_verratti.jpg",
+      "statistics": [
+        {
+          "matches": 432,
+          "goals": 152,
+          "assists": 34,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bryan Cristante",
+      "nationality": "Italy",
+      "age": "28 years",
+      "position": "Mid-fielder",
+      "biography": "Bryan Cristante Cavaliere OMRI (born 3 March 1995) is an Italian professional footballer who plays as a midfielder for Serie A club Roma and the Italy national team.",
+      "images": "Assets/Images/cristante.jpg",
+      "statistics": [
+        {
+          "matches": 212,
+          "goals": 184,
+          "assists": 13,
+          "yellow_card": 8,
+          "red_card": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jorginho",
+      "nationality": "Italy",
+      "age": "31 years",
+      "position": "Goal Keeper",
+      "biography": "Jorge Luiz Frello Filho Cavaliere OMRI, known as Jorginho, is a professional footballer who plays as a midfielder for Premier League club Arsenal and the Italy national team. He operates as a defensive midfielder or a deep-lying playmaker, also known as a regista in Italian football.",
+      "images": "Assets/Images/Jorginho.jpg",
+      "statistics": [
+        {
+          "matches": 192,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 4,
+          "red_card": 1
+        }
+      ]
+    }
+  ],
+  "netherlands": [
+    {
+      "id": 0,
+      "name": "Frankie De Jong",
+      "nationality": "Netherlands",
+      "age": "26 years",
+      "position": "Center Mid-Fielder",
+      "biography": "Frenkie de Jong is a Dutch professional footballer who plays as a central midfielder for La Liga club Barcelona and the Netherlands national team. A versatile midfielder, he is known for his vision, passing, dribbling, technique, along with strong defensive abilities and his attacking prowess.",
+      "images": "Assets/Images/frankie_de_jong.jpg",
+      "statistics": [
+        {
+          "matches": 512,
+          "goals": 382,
+          "assists": 32,
+          "yellow_card": 20,
+          "red_card": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Daley Blind",
+      "nationality": "Netherlands",
+      "age": "33 years",
+      "position": "Center Back",
+      "biography": "Daley Blind is a Dutch professional footballer who plays as a defensive midfielder, left-back or centre-back for La Liga club Girona and the Netherlands national team. He is the son of former Ajax defender and former Netherlands national team manager Danny Blind.",
+      "images": "Assets/Images/daley_blind.jpg",
+      "statistics": [
+        {
+          "matches": 534,
+          "goals": 100,
+          "assists": 23,
+          "yellow_card": 15,
+          "red_card": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Virgil van Dijk",
+      "nationality": "Netherlands",
+      "age": "33 years",
+      "position": "Center Defence",
+      "biography": "Virgil van Dijk is a Dutch professional footballer who plays as a centre-back and captains both Premier League club Liverpool and the Netherlands national team. Widely regarded as one of the best defenders in the world, Van Dijk is known for his strength, leadership and aerial ability.",
+      "images": "Assets/Images/virgil.jpg",
+      "statistics": [
+        {
+          "matches": 1055,
+          "goals": 242,
+          "assists": 34,
+          "yellow_card": 8,
+          "red_card": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Donyell Mallen",
+      "nationality": "Netherlands",
+      "age": "24 years",
+      "position": "Center Forward",
+      "biography": "Donyell Malen is a Dutch professional footballer who plays as a forward for Bundesliga club Borussia Dortmund and the Netherlands national team. Malen started his professional career at PSV Eindhoven. At youth level he also featured for Ajax and Arsenal.",
+      "images": "Assets/Images/Donyell_Malen.jpg",
+      "statistics": [
+        {
+          "matches": 212,
+          "goals": 184,
+          "assists": 13,
+          "yellow_card": 8,
+          "red_card": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Justin Bijlow",
+      "nationality": "Netherlands",
+      "age": "25 years",
+      "position": "Goal Keeper",
+      "biography": "Justin Bijlow is a Dutch professional footballer who plays as goalkeeper for Eredivisie club Feyenoord and the Netherlands national team.",
+      "images": "Assets/Images/justin_bijlow.jpg",
+      "statistics": [
+        {
+          "matches": 192,
+          "goals": 0,
+          "assists": 0,
+          "yellow_card": 4,
+          "red_card": 1
+        }
+      ]
+    }
+  ]
+}
