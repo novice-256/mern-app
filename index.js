@@ -23,16 +23,13 @@ app.use('/api/', routes);
 
 // Serve static files in production
 const __dirname = path.resolve('sample_app');
-
-console.log(process.env.NODE_ENV)
-if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "build")));
       console.log("NODE_ENV is true ")
   app.get("*", (req, res) => {
       console.log("* route hitting")
     res.sendFile('index.html', { root: path.join(__dirname, "build") });
   });
-}
+
 
 const PORT = process.env.PORT || 3000;
 
