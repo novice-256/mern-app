@@ -23,7 +23,7 @@ app.use('/api/', routes);
 // We need to tell the Heroku to serve the statics files of the client.
       const __dirname = path.resolve('sample_app');
 if(process.env.NODE_ENV === "production"){
-    app.use(express.static(path.jon(__dirname,"sample_app/build"))
+    app.use(express.static(path.jon(__dirname,"sample_app/build")))
     app.get("*",(req,res)=>{
          res.sendFile('index.html', { root: __dirname });
 // res.sendFile(path.join(__dirname, 'build', 'index.html'));
