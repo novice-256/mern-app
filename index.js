@@ -23,13 +23,13 @@ app.use('/api/', routes);
 
 // Serve static files in production
 const __dirname = path.resolve();
-app.use(express.static(path.join(__dirname, "sample_app", "build")));
+app.use(express.static(path.join(__dirname, "sample_app", "public")));
 
 app.get("*", (req, res) => {
-    console.log("built path: " + path.join(__dirname, "sample_app", "build"));
-    res.sendFile('index.html', { root: path.join(__dirname, "sample_app", "build") });
+    console.log("public path: " + path.join(__dirname, "sample_app", "public"));
+    res.sendFile('index.html', { root: path.join(__dirname, "sample_app", "public") });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => console.log("Server running at PORT: " + PORT));
