@@ -22,11 +22,11 @@ connection();
 app.use('/api/', routes);
 
 // Serve static files in production
-const __dirname = path.resolve('sample_app');
-  app.use(express.static(path.join(__dirname, "build")));
-      console.log("NODE_ENV is true ")
+const __dirname = path.resolve();
+  app.use(express.static(path.join(__dirname,"sample_app", "build")));
+    
   app.get("*", (req, res) => {
-      console.log("* route hitting")
+      console.log("built pat :"+ path.join("sample_app", "build"))
     res.sendFile('index.html', { root: path.join("sample_app", "build") });
   });
 
