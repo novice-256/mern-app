@@ -23,13 +23,12 @@ app.use('/api/', routes);
 
 // Serve static files in production
 const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname,"sample_app", "build")));
-    
-  app.get("*", (req, res) => {
-      console.log("built pat :"+ path.join("sample_app", "build"))
-    res.sendFile('index.html', { root: path.join("sample_app", "build") });
-  });
+app.use(express.static(path.join(__dirname, "sample_app", "build")));
 
+app.get("*", (req, res) => {
+    console.log("built path: " + path.join(__dirname, "sample_app", "build"));
+    res.sendFile('index.html', { root: path.join(__dirname, "sample_app", "build") });
+});
 
 const PORT = process.env.PORT || 3000;
 
