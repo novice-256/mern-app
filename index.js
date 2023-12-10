@@ -8,7 +8,7 @@ import { env } from "process";
 const app = express();
 
 // Allow Cross-Origin Resource Sharing (CORS)
-// app.use(cors({ credentials: true, origin: 'https://emp-app-ca789b749d5f.herokuapp.com' }));
+app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -24,10 +24,10 @@ app.use('/api/', routes);
 // Serve static files in production
 const __dirname = path.resolve('sample_app');
 
+console.log(process.env.NODE_ENV)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "build")));
       console.log("NODE_ENV is true ")
-
   app.get("*", (req, res) => {
       console.log("* route hitting")
     res.sendFile('index.html', { root: path.join(__dirname, "build") });
