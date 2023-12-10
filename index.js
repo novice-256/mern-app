@@ -7,6 +7,8 @@ import path from "path";
 import { env } from "process";
 const app = express();
 
+// Serve static files in production
+const __dirname = path.resolve();
 // Allow Cross-Origin Resource Sharing (CORS)
 app.use(cors());
 app.use(cookieParser());
@@ -21,8 +23,6 @@ connection();
 // Define your routes
 app.use('/api/', routes);
 
-// Serve static files in production
-const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "sample_app", "build")));
 
 app.get("*", (req, res) => {
