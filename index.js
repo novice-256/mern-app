@@ -20,14 +20,20 @@ connection();
 
 // Define your routes
 app.use('/api/', routes);
-// We need to tell the Heroku to serve the statics files of the client.
-      const __dirname = path.resolve('sample_app');
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static(path.jon(__dirname,"build")))
-    app.get("*",(req,res)=>{
-         res.sendFile('index.html', { root: __dirname });
-// res.sendFile(path.join(__dirname, 'build', 'index.html'));
-    })
+
+// Serve static files in production
+const __dirname = path.resolve('sample_app');
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "build")));
+      console.log("NODE_ENV is true ")
+
+  app.get("*", (req, res) => {
+      console.log("* route hitting")
+    res.sendFile('index.html', { root: path.join(__dirname, "build") });
+  });
 }
- const PORT = process.env.PORT || 3000
+
+const PORT = process.env.PORT || 3000;
+
 app.listen(PORT, () => console.log("Server running at PORT: " + PORT));
