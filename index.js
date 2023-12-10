@@ -27,7 +27,7 @@ const __dirname = path.resolve('sample_app');
       console.log("NODE_ENV is true ")
   app.get("*", (req, res) => {
       console.log("* route hitting")
-    res.sendFile('index.html', { root: path.join(__dirname, "build") });
+    res.sendFile('index.html', { root: path.join("sample_app", "build") });
   });
 
 
